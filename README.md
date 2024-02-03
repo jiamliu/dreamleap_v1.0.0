@@ -21,6 +21,22 @@ Begin Your Relaxation: Simply open DreamLeap, set your preferred jump speed, and
 
 Relax and Sleep: Allow DreamLeap to run while you unwind in bed. The rhythmic animation and soothing background aim to help you achieve a peaceful night's sleep.
 
+# Technology
+HTML
+
+CSS
+
+JavaScript
+
+Ucraft Logo Designer
+
 # Disclaimer
 DreamLeap is not a medical solution for sleep problems. It is intended to provide a relaxing and calming experience that may assist with sleep but should not be used as a substitute for professional medical advice or treatment.
+
+# Resource
+Background Picture: https://img.freepik.com/free-vector/aerial-view-garden_1308-28512.jpg?w=740&t=st=1706988325~exp=1706988925~hmac=178b71da9650537f20691c51aed0a1b5e4c8c17c92debb3eeb9cf9a829593fb5
+
+Running Sheep: https://img1.picmix.com/output/stamp/normal/5/5/2/3/1863255_fad1d.gif
+
+Fence: https://gallery.yopriceville.com/var/albums/Free-Clipart-Pictures/Fences-PNG-Clipart/Side_Fence_PNG_Clip_Art_Image.png?m=1533334504
 
