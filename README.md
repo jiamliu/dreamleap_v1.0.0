@@ -1,7 +1,7 @@
 # Overview
 ![logo](https://github.com/jiamliu/dreamleap/assets/139939637/23459be8-b4f8-4ac8-bbe8-bb563585c692)
 
-DreamLeap is your ultimate sleep companion, designed to help individuals struggling with sleep problems achieve a better night's rest. Unlike a traditional game, DreamLeap provides soothing visuals and adjustable features to promote relaxation and sleep.
+DreamLeap (current version 1.0.0) is your ultimate sleep companion, designed to help individuals struggling with sleep problems achieve a better night's rest. Unlike a traditional game, DreamLeap provides soothing visuals and adjustable features to promote relaxation and sleep.
 
 # Features
 Automatic Sheep Jump: A peaceful sheep animation automatically leaps over a serene fence at adjustable speeds to create a calming and repetitive visual experience.
