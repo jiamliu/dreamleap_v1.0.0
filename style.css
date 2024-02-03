@@ -1,0 +1,106 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('https://img.freepik.com/free-vector/aerial-view-garden_1308-28512.jpg?w=740&t=st=1706988325~exp=1706988925~hmac=178b71da9650537f20691c51aed0a1b5e4c8c17c92debb3eeb9cf9a829593fb5'); /* Use your desired background image */
+    background-repeat: repeat-x; 
+    background-size: auto 100%;
+}
+
+#game {
+    position: relative;
+    width: 100vw;
+    height: 200px;
+    overflow: hidden;
+}
+
+#sheep, #fence {
+    position: absolute;
+    bottom: 0;
+}
+
+#sheep {
+    width: 60px;
+    height: 60px;
+    background-image: url('https://img1.picmix.com/output/stamp/normal/5/5/2/3/1863255_fad1d.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 2;
+    position: absolute; 
+    animation: moveSheep 10s linear infinite;
+}
+
+#fence {
+    width:  250px;
+    height: 210px;
+    background-image: url('https://gallery.yopriceville.com/var/albums/Free-Clipart-Pictures/Fences-PNG-Clipart/Side_Fence_PNG_Clip_Art_Image.png?m=1533334504');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    z-index:1;
+}
+
+.controls {
+    margin-top: 20px;
+    text-align: center;
+    font-family: impact, fantasy;
+}
+
+
+input[type="range"] {
+    -webkit-appearance: none; 
+    appearance: none;
+    width: 100%; 
+    height: 10px; 
+    background: #ddd; 
+    outline: none; 
+    opacity: 0.7; 
+    -webkit-transition: .2s; 
+    transition: opacity .2s;
+}
+
+input[type="range"]:hover {
+    opacity: 1; 
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; 
+    appearance: none;
+    width: 25px; 
+    height: 25px; 
+    background: #4CAF50; 
+    cursor: pointer; 
+}
+
+@keyframes moveSheep {
+    0% { 
+        transform: translateX(-100px); /* Starts off-screen */
+    }
+    20% { 
+        transform: translateX(10vw) translateY(0); /* Running on-screen */
+    }
+    45% {
+        transform: translateX(45vw) translateY(0); /* Approaching the fence */
+    }
+    50% {
+        transform: translateX(50vw) translateY(-120px); /* Jumping */
+    }
+    62% {
+        transform: translateX(62vw) translateY(0); /* Landing */
+    }
+    90% {
+        transform: translateX(90vw) translateY(0); /* Running towards the edge */
+    }
+    100% {
+        transform: translateX(100vw) translateY(0); /* Exiting off-screen */
+    }
+}
+
+
