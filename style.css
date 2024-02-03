@@ -81,25 +81,25 @@ input[type="range"]::-webkit-slider-thumb {
 
 @keyframes moveSheep {
     0% { 
-        transform: translateX(-100px); /* Starts off-screen */
+        transform: translateX(-100px); 
     }
     20% { 
-        transform: translateX(10vw) translateY(0); /* Running on-screen */
+        transform: translateX(10vw) translateY(0); 
     }
     45% {
-        transform: translateX(45vw) translateY(0); /* Approaching the fence */
+        transform: translateX(45vw) translateY(0); 
     }
     50% {
-        transform: translateX(50vw) translateY(-120px); /* Jumping */
+        transform: translateX(50vw) translateY(-120px); 
     }
     62% {
-        transform: translateX(62vw) translateY(0); /* Landing */
+        transform: translateX(62vw) translateY(0); 
     }
     90% {
-        transform: translateX(90vw) translateY(0); /* Running towards the edge */
+        transform: translateX(90vw) translateY(0); 
     }
     100% {
-        transform: translateX(100vw) translateY(0); /* Exiting off-screen */
+        transform: translateX(100vw) translateY(0); 
     }
 }
 
